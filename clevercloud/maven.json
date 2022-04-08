@@ -4,6 +4,6 @@
     "goal": "package"
   },
   "deploy": {
-    "goal": "spring-boot:run -X"
+    "goal": "spring-boot:run"
   }
 }
