@@ -26,6 +26,13 @@ public class Author {
     @XmlElement(namespace = "http://univrouen.fr/rss22", required = true)
     protected String uri;
 
+    public Author() {
+    }
+
+    public Author(String name, String uri) {
+        this.name = name;
+        this.uri = uri;
+    }
 
     public String getName() {
         return name;

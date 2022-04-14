@@ -24,6 +24,10 @@ public class Contributor {
     @XmlElement(namespace = "http://univrouen.fr/rss22", required = true)
     protected String uri;
 
+    public Contributor(String name, String uri) {
+        this.name = name;
+        this.uri = uri;
+    }
 
     public String getName() {
         return name;

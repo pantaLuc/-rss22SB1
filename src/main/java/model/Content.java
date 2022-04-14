@@ -25,6 +25,14 @@ public class Content {
     @XmlAttribute(name = "type")
     protected String type;
 
+    public Content() {
+    }
+
+    public Content(String value, String href, String type) {
+        this.value = value;
+        this.href = href;
+        this.type = type;
+    }
 
     public String getValue() {
         return value;

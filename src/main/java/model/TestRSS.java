@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestRSS {
 	public String loadFileXML() {
 		
-		Resource resource =  new DefaultResourceLoader().getResource("classpath:xml/item.xml");
+		Resource resource =  new DefaultResourceLoader().getResource("classpath:xml/feed.xml");
 		try (Reader reader = new InputStreamReader(((InputStreamSource) resource).getInputStream())) {
             return FileCopyUtils.copyToString(reader);
         } catch (IOException e) {
