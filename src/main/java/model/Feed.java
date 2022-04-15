@@ -1,9 +1,4 @@
-//
-// Ce fichier a été généré par Eclipse Implementation of JAXB, v3.0.2 
-// Voir https://eclipse-ee4j.github.io/jaxb-ri 
-// Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2022.04.13 à 09:08:17 PM CEST 
-//
+
 
 
 package model;
